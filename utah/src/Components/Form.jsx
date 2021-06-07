@@ -17,9 +17,11 @@ function Form() {
     });
   };
   const handleCheck = (e) => {
+    // allows to edit values
     setInfo({ ...info, [e.target.name]: e.target.checked });
   };
   const submitForm = (e) => {
+    // submiting form
     e.preventDefault();
     let { username, email, dob, agreement } = info;
     axios
@@ -42,6 +44,7 @@ function Form() {
       });
   };
   const clearForm = (e) => {
+    // clearing forms
     e.preventDefault();
     setInfo({
       username: "",
