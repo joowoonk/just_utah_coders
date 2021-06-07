@@ -1,0 +1,64 @@
+.form{
+    /* display: flex; */
+    margin: 40px auto;
+    border:3px solid black;
+    width: 320px;
+    padding: 20px
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+}
+form {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+     font-weight: bold;
+}
+
+.input{
+    width: 320px;
+}
+button{
+      font-family: 'Indie Flower', cursive;
+     font-weight: bold;
+     font-size: 25px;
+     padding: 0 20px;
+}
+.buttons {
+    display:flex;
+    width: 100%;
+    justify-content: flex-end;
+    /* background-color: red; */
+}
+.button{
+    margin-left: 10px;
+}
+
+.bottom{
+    display:flex;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+label{
+    margin: 10px 0;
+}
+h2{
+    width:100%;
+    margin: 0;
+}
+
+h3 {
+        display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
