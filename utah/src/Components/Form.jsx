@@ -21,7 +21,7 @@ function Form() {
     setInfo({ ...info, [e.target.name]: e.target.checked });
   };
   const submitForm = (e) => {
-    // submiting form
+    // submitting form
     e.preventDefault();
     let { username, email, dob, agreement } = info;
     axios
